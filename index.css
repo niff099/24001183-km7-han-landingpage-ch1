@@ -1,4 +1,4 @@
-
+/* general */
   .small-text{
     font-size: 14px;
     font-weight: 300;
@@ -16,10 +16,10 @@
     font-family: 'Helvetica', sans-serif;
   }
 
-.not-reverse{
+  .not-reverse{
     display: flex;
     flex-direction: row-reverse;
-}
+  } 
   
   a{
       color: black;
@@ -37,8 +37,8 @@
 
   #featured-3 .row {
       display: flex;
-      flex-wrap: wrap; /* Tetap dalam satu baris */
-      justify-content: space-between; /* Atur jarak antar elemen */
+      flex-wrap: wrap;
+      justify-content: space-between; 
       align-items: stretch;
       gap: 100px;
   }
@@ -47,19 +47,19 @@
       flex: 1; 
       width: 268px; 
       height: 196px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opsional: Memberikan bayangan agar terlihat lebih menonjol */
-      padding: 20px; /* Opsional: Tambahkan padding dalam kotak */
-      border-radius: 8px; /* Opsional: Membuat sudut kotak lebih halus */
-      background-color: white; /* Warna latar belakang */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      padding: 20px; 
+      border-radius: 8px;
+      background-color: white;
   }
 
   .feature-icon {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 50px; /* Ukuran ikon lebih kecil */
+      width: 50px; 
       height: 50px;
-      margin-bottom: 1rem; /* Jarak bawah ikon */
+      margin-bottom: 1rem;
   }
 
   .feature-icon svg {
@@ -77,30 +77,6 @@
 
   .icon-link {
       font-size: 0.9rem;
-  }
-
-  .carousel-control-next-icon{
-      background-image: url(assets/Right\ button.png);
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-  .carousel-control-prev-icon{
-      background-image: url(assets/Left\ button.png);
-  }
-
-  .btn{
-      background-color: #5CB85F;
-      border: none;
-      color: #F1F3FF;
-      font-size: 14px;
-      border-radius: 2px;
-  }
-
-  .btn:hover {
-      background-color: #0D28A6;
-      transform: translateY(-2px);
-      color: #F1F3FF;
   }
 
   .nav-link{
@@ -130,25 +106,31 @@
   .pre-text{
     white-space: pre;
   }
-  
-  .car{
-    padding-left: 310.5px;
-  }
-
-  .carousel-item{
-    background-color: #F1F3FF;
-    
-  }
-
-  .carousel-inner{
-    max-width: 70%;
-    margin-left: 350px;
-  }
 
   col{
     width: 30%;
   }
 
+/* <!-- Hero Section -->  */
+  .car{
+    padding-left: 310.5px;
+  }
+  
+  .btn{
+    background-color: #5CB85F;
+    border: none;
+    color: #F1F3FF;
+    font-size: 14px;
+    border-radius: 2px;
+  }
+
+  .btn:hover {
+    background-color: #0D28A6;
+    transform: translateY(-2px);
+    color: #F1F3FF;
+  }
+
+/* CTA Banner */
   .CTA{
     margin-left: 136px;
     margin-right: 136px;
@@ -168,6 +150,27 @@
     margin-bottom: 180px;
   }
 
+  .carousel-item{
+    background-color: #F1F3FF;
+    
+  }
+
+  .carousel-inner{
+    max-width: 70%;
+    margin-left: 350px;
+  }
+
+  .carousel-control-next-icon{
+    background-image: url(assets/Right\ button.png);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-control-prev-icon{
+    background-image: url(assets/Left\ button.png);
+  }
+
+/* FAQ */
   .accordion{
     padding-left: 230px;
   }
